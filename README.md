@@ -11,7 +11,7 @@ This allows you to throw up the `*.tgz` NodeSchool workshoppers on the local net
 
 ## Use
 
-`$ mkdir workshops; cd workshops; npm i all-the-workshops`
+`$ mkdir workshops && cd $_ && echo "{}" > package.json && npm i all-the-workshops`
 
 Wait a bit and it will do some magic. Then in your `node_modules/all-the-workshops/workshops` dir you should have all the `*.tgz` files for every workshopper.
 
