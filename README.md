@@ -20,3 +20,7 @@ Then you can just:
 `$ npm i -g stream-adventure.tgz`
 
 and it will install with all the dependencies bundled.
+
+## Caveats
+
+Might need to do this per platform as some of the deps are compiled at install time.
