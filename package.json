@@ -1,6 +1,6 @@
 {
   "name": "all-the-workshops",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "All the NodeSchool workshops",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,6 @@
     "fstream": "^1.0.2",
     "ls-stream": "^1.0.0",
     "mkdirp": "^0.5.0",
-    "npm": "^2.1.4",
     "tar": "^1.0.1",
     "through": "^2.3.6"
   }
