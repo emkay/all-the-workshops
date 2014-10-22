@@ -4,6 +4,7 @@
   "description": "All the NodeSchool workshops",
   "main": "index.js",
   "scripts": {
+    "postinstall": "node post-install.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,27 +23,11 @@
   },
   "homepage": "https://github.com/emkay/all-the-workshops",
   "dependencies": {
-    "async-you": "0.0.12",
-    "browserify-adventure": "^1.7.4",
-    "bug-clinic": "^1.1.4",
-    "bytewiser": "^2.0.1",
-    "count-to-6": "^0.5.3",
-    "expressworks": "0.0.21",
-    "functional-javascript-workshop": "0.0.27",
-    "git-it": "^1.6.0",
-    "goingnative": "^1.4.11",
-    "introtowebgl": "^1.0.1",
-    "javascripting": "^1.2.0",
-    "kick-off-koa": "^1.1.1",
-    "learnyoucouchdb": "^1.0.2",
-    "learnyounode": "^1.0.3",
-    "levelmeup": "^0.1.10",
-    "lololodash": "^0.3.2",
-    "makemehapi": "^0.2.5",
-    "nodebot-workshop": "^2.2.4",
-    "planetproto": "^0.5.3",
-    "promise-it-wont-hurt": "^0.1.0",
-    "shader-school": "^1.0.2",
-    "stream-adventure": "^2.5.1"
+    "fstream": "^1.0.2",
+    "ls-stream": "^1.0.0",
+    "mkdirp": "^0.5.0",
+    "npm": "^2.1.4",
+    "tar": "^1.0.1",
+    "through": "^2.3.6"
   }
 }
