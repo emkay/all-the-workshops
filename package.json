@@ -1,6 +1,6 @@
 {
   "name": "all-the-workshops",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "All the NodeSchool workshops",
   "main": "index.js",
   "scripts": {
