@@ -44,7 +44,7 @@ npm.on('close', function () {
             fstream.Reader({ 'path': entry.path, 'type': 'Directory' })
                 .pipe(tar.Pack())
                 .pipe(zlib.Gzip())
-                .pipe(fstream.Writer({ 'path': __dirname + '/workshops/' + entry.path.split('/')[1] + '.tgz' }));
+                .pipe(fstream.Writer({ 'path': __dirname + '/../' + entry.path.split('/')[1] + '.tgz' }));
         }
     }));
 });
